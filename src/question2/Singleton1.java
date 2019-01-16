@@ -15,7 +15,7 @@ public class Singleton1 {
     }
 
     //公共获得单例变量方法
-    public Singleton1 getInstance() {
+    public static Singleton1 getInstance() {
         return instance;
     }
 }
