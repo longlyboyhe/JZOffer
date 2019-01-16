@@ -3,7 +3,7 @@ package question2;
 /**
  * @author: zhangocean
  * @Date: 2019/1/16 21:33
- * Describe: 饿汉式单例
+ * Describe: 饿汉式单例(静态常量)
  */
 public class Singleton1 {
 
