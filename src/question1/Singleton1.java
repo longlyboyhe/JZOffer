@@ -6,4 +6,5 @@ package question1;
  * Describe:
  */
 public class Singleton1 {
+
 }
