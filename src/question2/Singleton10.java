@@ -27,4 +27,5 @@ public class Singleton10 {
     public static Object getService(String key){
         return map.get(key);
     }
+
 }
