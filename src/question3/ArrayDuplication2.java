@@ -13,7 +13,7 @@ public class ArrayDuplication2 {
         HashSet set = new HashSet();
         for(int i=0;i<length;i++){
             if(!set.add(arr[i])){
-                System.out.println("repeat number£º" +arr[i]);
+                System.out.println("repeat number:" +arr[i]);
                 break;
             }
         }
