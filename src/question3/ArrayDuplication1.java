@@ -8,21 +8,18 @@ package question3;
 public class ArrayDuplication1 {
 
     public static boolean duplicate(int numbers[],int length) {
+        int k;
         for(int i=0;i<length;i++){
             while(numbers[i] != i){
                 if(numbers[i] == numbers[numbers[i]]){
                     return true;
                 }
-                swapReference(numbers, i, numbers[i]);
+                k = numbers[i];
+                numbers[i] = numbers[numbers[i]];
+                numbers[k] = k;
             }
         }
         return false;
-    }
-
-    public static void swapReference(int[] arr, int i, int j){
-        int k = arr[i];
-        arr[i] = arr[j];
-        arr[j] = k;
     }
 
     public static void main(String[] args) {
