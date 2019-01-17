@@ -13,7 +13,7 @@ public class ArrayDuplication2 {
         HashSet set = new HashSet();
         for(int i=0;i<length;i++){
             if(!set.add(arr[i])){
-                System.out.println("有重复的数字:" +arr[i]);
+                System.out.println("有重复的数字 :" +arr[i]);
                 break;
             }
         }
