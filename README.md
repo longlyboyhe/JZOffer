@@ -1,8 +1,9 @@
 # JZOffer
 剑指Offer（第二版）面试题java版本解法 
 
-| 序号  |  牛客OJ |  数据结构类型 |
+| 序号  |  牛客OJ |  考点 |
 | ------------ | ------------ | ------------ |
+|  02 | 实现Singleton模式    |  Singleton模式   |            
 |  03 |  [数组中重复的数字](https://www.nowcoder.com/practice/623a5ac0ea5b4e5f95552655361ae0a8?tpId=13&tqId=11203&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking "数组中重复的数字") |  数组 |
 |  04 |  [二维数组中的查找](https://www.nowcoder.com/practice/abc3fe2ce8e146608e868a70efebf62e?tpId=13&tqId=11154&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking "二维数组中的查找") |  数组 |
 |  05 |  [替换空格](https://www.nowcoder.com/practice/4060ac7e3e404ad1a894ef3e17650423?tpId=13&tqId=11155&tPage=1&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking "替换空格")   |  字符串   |
@@ -14,4 +15,5 @@
 |  11 |  [旋转数组的最小数字](https://www.nowcoder.com/practice/9f3231a991af4f55b95579b44b7a01ba?tpId=13&tqId=11159&tPage=1&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking "旋转数组的最小数字")   |  数组  |
 |  12 | [矩阵中的路径](https://www.nowcoder.com/practice/c61c6999eecb4b8f88a98f66b273a3cc?tpId=13&tqId=11218&tPage=4&rp=4&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking "矩阵中的路径")    |  数组   |
 |  13 | [机器人的运动范围](https://www.nowcoder.com/practice/6e5207314b5241fb83f2329e89fdecc8?tpId=13&tqId=11219&tPage=4&rp=4&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking "机器人的运动范围")   |  数组   |
-|    |     |     |                                                                                          
+|  14 | 剪绳子    |  动态规划和贪婪算法  |
+|   |     |     |                                                                                                
