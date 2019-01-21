@@ -17,4 +17,6 @@
 |  13 | [机器人的运动范围](https://www.nowcoder.com/practice/6e5207314b5241fb83f2329e89fdecc8?tpId=13&tqId=11219&tPage=4&rp=4&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking "机器人的运动范围")   |  回溯法   |
 |  14 | 剪绳子    |  动态规划和贪婪算法  |
 |  15 | [二进制中1的个数](https://www.nowcoder.com/practice/8ee967e43c2c4ec193b040ea7fbb10b8?tpId=13&tqId=11164&tPage=1&rp=4&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking "二进制1的个数")    |  位运算   |
-|  16 | [数值的整数次方](https://www.nowcoder.com/practice/1a834e5e3e1a4b7ba251417554e07c00?tpId=13&tqId=11165&rp=4&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking "数值的整数次方")   |  边界考虑  |                                                                                                
+|  16 | [数值的整数次方](https://www.nowcoder.com/practice/1a834e5e3e1a4b7ba251417554e07c00?tpId=13&tqId=11165&rp=4&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking "数值的整数次方")   |  边界考虑  |
+|  17 | 打印从1到最大的n位数    | 字符串、递归   |
+|  18 | [删除链表中重复的节点](https://www.nowcoder.com/practice/fc533c45b73a41b0b44ccba763f866ef?tpId=13&tqId=11209&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking "删除链表中重复的节点")    |  链表  |                                                                                                                 
