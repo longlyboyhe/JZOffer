@@ -19,4 +19,6 @@
 |  15 | [二进制中1的个数](https://www.nowcoder.com/practice/8ee967e43c2c4ec193b040ea7fbb10b8?tpId=13&tqId=11164&tPage=1&rp=4&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking "二进制1的个数")    |  位运算   |
 |  16 | [数值的整数次方](https://www.nowcoder.com/practice/1a834e5e3e1a4b7ba251417554e07c00?tpId=13&tqId=11165&rp=4&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking "数值的整数次方")   |  边界考虑  |
 |  17 | 打印从1到最大的n位数    | 字符串、递归   |
-|  18 | [删除链表中重复的节点](https://www.nowcoder.com/practice/fc533c45b73a41b0b44ccba763f866ef?tpId=13&tqId=11209&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking "删除链表中重复的节点")    |  链表  |                                                                                                                 
+|  18 | [删除链表中重复的节点](https://www.nowcoder.com/practice/fc533c45b73a41b0b44ccba763f866ef?tpId=13&tqId=11209&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking "删除链表中重复的节点")    |  链表  |
+|  19 | [正则表达式匹配](https://www.nowcoder.com/practice/45327ae22b7b413ea21df13ee7d6429c?tpId=13&tqId=11205&tPage=3&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking "正则表达式匹配")    | 字符串   |
+|   |     |    |                                                                                                                
