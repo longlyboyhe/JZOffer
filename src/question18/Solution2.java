@@ -51,7 +51,6 @@ public class Solution2 {
         ListNode node5 = new ListNode(3);
         ListNode node6 = new ListNode(4);
         ListNode node7 = new ListNode(6);
-
         root.next = node1;
         node1.next = node2;
         node2.next = node3;
