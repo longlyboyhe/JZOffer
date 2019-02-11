@@ -15,7 +15,7 @@ class ListNode {
         this.val = val;
     }
 }
-public class Solution {
+public class Solution1 {
 
     public static ListNode FindKthToTail(ListNode head,int k) {
         if(head == null || head.next == null){
@@ -43,7 +43,7 @@ public class Solution {
         ListNode listNode4 = new ListNode(4);listNode3.next = listNode4;
         ListNode listNode5 = new ListNode(5);listNode4.next = listNode5;
 
-        System.out.println(Solution.FindKthToTail(listNode1, 5).val);
+        System.out.println(Solution1.FindKthToTail(listNode1, 5).val);
     }
 
 }
