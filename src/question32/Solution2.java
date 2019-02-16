@@ -1,7 +1,6 @@
 package question32;
 
-import question30.Solution;
-
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -16,13 +15,16 @@ public class Solution2 {
     /**
      * 思路：使用一个nectLevel记录下一层需要打印的节点数。toBePrinted记录当前层还没有打印的节点数
      */
-    public static void PrintFromTopToBottom(TreeNode root) {
+    public static ArrayList<ArrayList<Integer>> Print(TreeNode pRoot) {
+
         Queue<TreeNode> queue = new LinkedList<>();
-        if(root == null){
-            return;
+        ArrayList<ArrayList<Integer>> list = new ArrayList<>();
+        ArrayList<Integer> list1 = new ArrayList<>();
+        if(pRoot == null){
+            return list;
         }
 
-        queue.add(root);
+        queue.add(pRoot);
         int nextLevel = 0;
         int toBePrinted = 1;
         TreeNode node = null;
@@ -35,13 +37,16 @@ public class Solution2 {
                 queue.add(node.right);
                 nextLevel++;
             }
-            System.out.print(node.val + " ");
+            list1.add(node.val);
             toBePrinted--;
             if(toBePrinted == 0){
-                System.out.println();
+                list.add(list1);
+                list1 = new ArrayList<>();
                 toBePrinted = nextLevel;
+                nextLevel = 0;
             }
         }
+        return list;
     }
 
     public static void main(String[] args) {
@@ -60,6 +65,6 @@ public class Solution2 {
         TreeNode treeNode6 = new TreeNode(11);
         treeNode2.right = treeNode6;
 
-        Solution2.PrintFromTopToBottom(root);
+        Solution2.Print(root);
     }
 }
