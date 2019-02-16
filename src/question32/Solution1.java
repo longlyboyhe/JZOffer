@@ -10,7 +10,7 @@ import java.util.Queue;
  * Describe: 从上到下打印二叉树
  * 题目：不分行从上到下打印二叉树。丛上到下打印二叉树的么个节点，同一层的节点按照从左到右的顺序打印。
  */
-public class Solution {
+public class Solution1 {
 
     /**
      * 利用队列性质，将每个节点的子节点入队，打印出队元素
@@ -44,7 +44,6 @@ class TreeNode {
 
     public TreeNode(int val) {
         this.val = val;
-
     }
 
 }
