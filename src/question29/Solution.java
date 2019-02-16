@@ -17,13 +17,13 @@ public class Solution {
         int start = 0;
         ArrayList<Integer> printResult = new ArrayList<>();
         while (start * 2 < rows && start * 2 < columns){
-            printResult = printMatrixCricle(matrix, start++, rows, columns, printResult);
+            printMatrixCircle(matrix, start++, rows, columns, printResult);
         }
 
         return printResult;
     }
 
-    public ArrayList<Integer> printMatrixCricle(int[][] matrix, int start, int rows, int columns, ArrayList<Integer> printResult){
+    public void printMatrixCircle(int[][] matrix, int start, int rows, int columns, ArrayList<Integer> printResult){
         int endX = columns - start -1;
         int endY = rows - start - 1;
         //´Ó×óÍùÓÒ
@@ -48,7 +48,6 @@ public class Solution {
                 printResult.add(matrix[i][start]);
             }
         }
-        return printResult;
     }
 
     public static void main(String[] args) {
