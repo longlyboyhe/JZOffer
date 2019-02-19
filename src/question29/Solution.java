@@ -55,5 +55,4 @@ public class Solution {
         Solution solution = new Solution();
         System.out.println(solution.printMatrix(matrix));
     }
-
 }
