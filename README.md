@@ -49,4 +49,5 @@
 |  43 | [1~n整数中1出现的次数](https://www.nowcoder.com/practice/bd7f978302044eee894445e244c7eee6?tpId=13&tqId=11184&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking "1~n整数中1出现的次数")    |  数组  |
 |  44 | 数字序列中某一位的数字   |  数值  |
 |  45 | [把数组排成最小的数](https://www.nowcoder.com/practice/8fecd3f8ba334add803bf2a06af1b993?tpId=13&tqId=11185&tPage=2&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking "把数组排成最小的数")    |  数组  |
+|  46 | 把数字翻译成字符串    |  数值  |
 |   |     |    |
