@@ -6,7 +6,8 @@ import java.util.Stack;
 /**
  * @author: zhangocean
  * @Date: 2019/1/18 15:55
- * Describe: 遍历链表将每个节点值压入栈，在将栈顶一次放入list中
+ * Describe: 从尾到头打印链表
+ * 题目：输入一个链表的头节点，从尾到头反过来打印出每个节点的值。
  */
 public class Solution {
 
